@@ -1,0 +1,493 @@
+<% include ./partials/header.ejs %>
+
+<!-- SideBar -->
+<div class="ui left sidebar inverted vertical menu" style="background-color:#072a4d;">
+    <a class="item">
+        <center>
+            <div class="ui huge header" style="color:aliceblue;margin-top: 1em;">
+                    <div><img class="ui large avatar image" src="/images/dinesh.jpg"></div>
+                <h2>Dinesh Pabbi</h2>
+                <div class="sub header" style="color: aliceblue;">
+                        A Computer Engineering Graduate Student at University of British Columbia. 
+                </div>
+            </div>
+        </center>
+    </a>
+    <a class="item" href="#about">
+        About
+    </a>
+    <a class="item" href="#skills">
+        Skills
+      </a>
+    <a class="item" href="#projects">
+            Projects
+        </a>
+    <a class="item" href="#education">
+            Education Timeline
+        </a>
+    <a class="item" href="#contact">
+                Contact Me
+    </a>
+
+  </div>
+  <div class="pusher">
+    <!-- Site content !-->
+    <button id="left-sidebar-toggle" style="background-color:#072a4d;" class="ui black big launch right attached fixed toggle button">
+            <i class="content icon"></i>
+            <span class="text">Menu</span>
+     </button>
+
+     <div class="ui segments">
+            <div class="ui segment" id = "main">
+                    <div class="content">
+                            <h1 class="text transition pulse">
+                                I want to continue the path of learning<br>by making things that can make a <u>difference</u>.
+                            </h1>
+                    </div>
+            </div>
+<!-- About Section -->
+            <div class="ui segment fadein" id ="about">
+              <div id ="left">
+                <h1 class="text">About Me</h1>
+              </div>
+              
+              <div class="paragraph">
+                <p class="special">
+                    <i>A competetive person with a desire to make a name in the world of software.</i>
+                </p>
+                <h3>
+                  "You have to dream before your dreams come true". Since my childhood i was always fascinated by this quote and hence always strived to realise my dreams.
+                  I knew the importance of having a rewarding career but never wanted to make a career at an expense of my interest. Hence when i was introduced to the world of computer science in my school,
+                  I knew i had found the path for a wholesome career. It opened a whole world of opportunities that could allow me to build creative solutions to the problems while providing a deep sense of satisfaction.
+                </h3>
+                <h3>
+                  I really dived into programming during the first semester of my undergraduate degree in computer science as i started learning the programming basics in C and C++. But 
+                   it was web development that initially took the most of my interest due to its quick development nature. I could easily design websites using frameworks and the database enabled some really simple yet awesome websites to be developed.
+                   During the second year , i was doing an internship in web development when one of the mentors introduced me to Machine Learning and from then on i spent my time at undergraduate learning
+                    machine learning and eventually dived into deep learning.
+                </h3>
+                <h3>
+                  I never really planned to follow a particular path as i learned the various domains in which programming was being employed. Hence i just followed what i found interesting and machine learning definitely was something that i spent the most time on.
+                  Now , on the verge of joining <span class="blue"> University of British Columbia </span> for Masters in Engineering , i aim to take forward my knowledge even further and continue the path of learning which i cherish the most.
+                </h3>
+                <center>
+                <h4>
+                  Current Focus: 
+                  <a href="#" onclick="event.preventDefault()" class="placeholder">React</a> / <a href="#" onclick="event.preventDefault()" class="placeholder">Transformer Deeplearning Model</a> /<a href="#" onclick="event.preventDefault()" class="placeholder">Transfer Learning in NLP</a> /
+                </h4>
+              </center>
+              </div>
+
+            </div>
+<!-- Skills Section -->
+            <div class="ui segment fadein" id ="skills">
+
+                <div id ="left">
+                    <h1 class="text">Skills</h1>
+                  </div>
+
+                  <div class="ui segments skills">
+
+
+                      <div class="ui segment skills">
+                        <h3> Languages </h3>
+                      </div>
+                      <div class="ui secondary segment skills">
+                          <div class="demo slider">
+                          <div class="ui card">
+                              <div class="content">
+                                <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-javascript-plain"></i></a>
+                                <div class="meta">
+                                  <a>Javascript</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="ui card">
+                                <div class="content">
+                                  <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-python-plain"></i></a>
+                                  <div class="meta">
+                                    <a>Python</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="ui card">
+                                  <div class="content">
+                                    <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-java-plain"></i></a>
+                                    <div class="meta">
+                                      <a>Java Core</a>
+                                    </div>
+                                  </div>
+                                </div>
+                          <!-- <div class="inline"><i class="devicon-javascript-plain"></i><h4>Javascript</h4>
+                          </div> -->
+                    </div>
+                    </div>
+
+                        <div class="ui segment skills">
+                          <h3> Web development </h3>
+                        </div>
+                        <div class="ui secondary segment skills">
+                            <div class="demo slider">
+                            <div class="ui card">
+                                <div class="content">
+                                  <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-html5-plain"></i></a>
+                                  <div class="meta">
+                                    <a>HTML</a>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <div class="ui card">
+                                  <div class="content">
+                                    <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-css3-plain"></i></a>
+                                    <div class="meta">
+                                      <a>CSS3</a>
+                                    </div>
+                                  </div>
+                                </div>
+  
+                                <div class="ui card">
+                                    <div class="content">
+                                      <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-nodejs-plain"></i></a>
+                                      <div class="meta">
+                                        <a>NodeJs</a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="ui card">
+                                      <div class="content">
+                                        <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-express-original"></i></a>
+                                        <div class="meta">
+                                          <a>Express</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="ui card">
+                                        <div class="content">
+                                          <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-bootstrap-plain"></i></a>
+                                          <div class="meta">
+                                            <a>Bootstrap</a>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="ui card">
+                                          <div class="content">
+                                            <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-jquery-plain"></i></a>
+                                            <div class="meta">
+                                              <a>JQuery</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="ui card">
+                                            <div class="content">
+                                              <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                              <div class="meta">
+                                                <a>PassportJs</a>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="ui card">
+                                              <div class="content">
+                                                <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                                <div class="meta">
+                                                  <a>Mongoose</a>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="ui card">
+                                                <div class="content">
+                                                  <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                                  <div class="meta">
+                                                    <a>Flask</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="ui card">
+                                                  <div class="content">
+                                                    <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-heroku-plain"></i></a>
+                                                    <div class="meta">
+                                                      <a>Heroku</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                            <!-- <div class="inline"><i class="devicon-javascript-plain"></i><h4>Javascript</h4>
+                            </div> -->
+                      </div>
+                      </div>
+
+                      <div class="ui segment skills">
+                          <h3> Data Science / Machine Learning </h3>
+                        </div>
+                        <div class="ui secondary segment skills">
+                            <div class="demo slider">
+                            <div class="ui card">
+                                <div class="content">
+                                  <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                  <div class="meta">
+                                    <a>Tensorflow</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="ui card">
+                                  <div class="content">
+                                    <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                    <div class="meta">
+                                      <a>Numpy</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="ui card">
+                                    <div class="content">
+                                      <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                      <div class="meta">
+                                        <a>Pandas</a>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="ui card">
+                                      <div class="content">
+                                        <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                        <div class="meta">
+                                          <a>MatplotLib</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="ui card">
+                                        <div class="content">
+                                          <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-devicon-plain"></i></a>
+                                          <div class="meta">
+                                            <a>Scikit</a>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                      </div>
+                      </div>
+
+                      <div class="ui segment skills">
+                          <h3> Database </h3>
+                        </div>
+                        <div class="ui secondary segment skills">
+                          <div class="demo slider">
+                            <div class="ui card">
+                                <div class="content">
+                                  <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-mongodb-plain"></i></a>
+                                  <div class="meta">
+                                    <a>MongoDB</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="ui card">
+                                  <div class="content">
+                                    <a class="header" href="#" onclick="event.preventDefault()"><i class="devicon-mysql-plain"></i></a>
+                                    <div class="meta">
+                                      <a>MySQL</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                      </div>
+                      </div>
+
+          </div>
+          </div>
+<!-- Projects Section -->
+          <div class="ui segment fadein" id ="projects">
+              
+            <div id ="left">
+              <h1 class="text">Projects</h1>
+            </div>
+            
+            <div class= "ui segment" id="right">
+
+<!-- Zero -->
+              <div class="ui card" style="width:300px;">
+              <div class="image">
+                <div class="ui move down reveal">
+                  <div class="visible content">
+                      <img src="images/lstm.png"  class="ui medium image">
+                    
+                  </div>
+                  <div class="hidden content" style="background-color: black;">
+                      <img src="/images/lstm2.png" style="position: relative;opacity: 0.5;" class="ui medium image">
+                        <div style="position: absolute;top:40%; color:aliceblue;font-weight: 800;width:inherit;text-align: center;">
+                          Feedback System Using LSTM
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <a class="header" targer = "_blank" href="https://github.com/dineshpabbi10/Twitter-Hashtag-Scrapper">LSTM and Rake for Feedback System</a>
+                <div class="meta">
+                  <span class="date">Catergory: Web Development,Deep Learning,API Development</span>
+                </div>
+                <div class="description">
+                  I developed a web api in flask with which i sent textual reviews and received output from LSTM model and Rake algorithm in the form of JSON containing Sentiment and keywords. This Api is then used in a website i developed in expressjs to fire a feedback system and assist it with keywords extracted to recognise the key things talked.
+                </div>
+              </div>
+            </div>
+<!-- First -->
+            <div class="ui card" style="width:300px;">
+              <div class="image">
+                <div class="ui move down reveal">
+                  <div class="visible content">
+                      <img src="images/data.jpg"  class="ui medium image">
+                    
+                  </div>
+                  <div class="hidden content" style="background-color: black;">
+                      <img src="/images/data2.jpg" style="position: relative;opacity: 0.5;" class="ui medium image">
+                        <div style="position: absolute;top:40%; color:aliceblue;font-weight: 800;width:inherit;text-align: center;">
+                          Data Analysis Projects
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <a class="header" target="_blank" href="https://github.com/dineshpabbi10/Data-Analysis-">IPL and Phone Call Case Study</a>
+                <div class="meta">
+                  <span class="date">Category : Data Analysis</span>
+                </div>
+                <div class="description">
+                  These are interactice python notebooks where i have done some analysis on datasets that i found online ! I used Pandas , Numpy and matplotlib for the case studies. Pandas was used to read and handle grouping of data according to different features. Numpy was used for mathematical operations . Matplotlib was used to plot the data to get a overview of result and structure of data.
+                </div>
+              </div>
+            </div>
+
+<!-- Second -->
+            <div class="ui card" style="width:300px;">
+              <div class="image">
+                <div class="ui move down reveal">
+                  <div class="visible content">
+                      <img src="images/twitter.jpg"  class="ui medium image">
+                    
+                  </div>
+                  <div class="hidden content" style="background-color: black;">
+                      <img src="/images/twitter2.jpg" style="position: relative;opacity: 0.5;" class="ui medium image">
+                        <div style="position: absolute;top:40%; color:aliceblue;font-weight: 800;width:inherit;text-align: center;">
+                          Tweets Extractor
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content" >
+                <a class="header" targer = "_blank" href="https://github.com/dineshpabbi10/Twitter-Hashtag-Scrapper">Tweets Extraction using API</a>
+                <div class="meta">
+                  <span class="date">Catergory: Data Acquisition</span>
+                </div>
+                <div class="description">
+                  It is a GUI application developed in Python. Twitter api was used to get tweets from the twitter database and GUI is developed using Tkinter package of Python. We only allow hastags to be searched in order to get tweets and the user of the app has to enter ones own Keys such as OAuth key for twitter api. Register a developer account on twitter for this.
+                </div>
+              </div>
+            </div>
+<!-- Third -->
+            <div class="ui card" style="width:300px;">
+              <div class="image">
+                <div class="ui move down reveal">
+                  <div class="visible content">
+                      <img src="images/face.png"  class="ui medium image">
+                    
+                  </div>
+                  <div class="hidden content" style="background-color: black;">
+                      <img src="/images/face2.png" style="position: relative;opacity: 0.5;" class="ui medium image">
+                        <div style="position: absolute;top:40%; color:aliceblue;font-weight: 800;width:inherit;text-align: center;">
+                          Facial Recognition
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <a class="header" target="_blank" href="https://github.com/dineshpabbi10/Machine-Learning-Algorithms/tree/master/Face%20Detect" >Facial Recognition Using OpenCV</a>
+                <div class="meta">
+                  <span class="date">Category: Machine Learning/Image Processing</span>
+                </div>
+                <div class="description">
+                  A simple facial recognition project made using Python. OpenCV was used to first capture the images from a camera and then convert the captured image in the form of matrix. The matrix obtained is constanly fed to K-Nearest-Neighbour algorithm to allow for it to differentiate among differnt people. It can only identify one person , the one closes to the camera.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+<!-- Education Timeline -->
+          <div class="ui segment fadein" id="education">
+              <div id ="left">
+                  <h1 class="text">Education Timeline</h1>
+                </div>
+                <div id="tm">
+                    <ul class="timeline">
+
+                        <!-- Item 1 -->
+                        <li>
+                          <div class="direction-r">
+                            <div class="flag-wrapper">
+                              <span class="flag">Graduate</span>
+                              <span class="time-wrapper"><span class="time">2019-Present</span></span>
+                            </div>
+                            <div class="desc">I am going to do Masters of Engineering in Computer Engineering from University of British Columbia Vancouver from September 2019.</div>
+                          </div>
+                        </li>
+                        
+                        <!-- Item 2 -->
+                        <li>
+                          <div class="direction-l">
+                            <div class="flag-wrapper">
+                              <span class="flag">UnderGraduate</span>
+                              <span class="time-wrapper"><span class="time">2015-2019</span></span>
+                            </div>
+                            <div class="desc">I chose Computer Science and Engineering as the focus of my undergraduate at Guru Nanak Dev University. My CGPA during the course was 9.23/10.</div>
+                          </div>
+                        </li>
+                      
+                        <!-- Item 3 -->
+                        <li>
+                          <div class="direction-r">
+                            <div class="flag-wrapper">
+                              <span class="flag">High School</span>
+                              <span class="time-wrapper"><span class="time">2013-2015</span></span>
+                            </div>
+                            <div class="desc">I chose Non-Medical as the focus of my study in High School. Was the second highest scorer in school in boards exam.</div>
+                          </div>
+                        </li>
+                        
+                      </ul>
+                </div>
+          </div>
+
+<!-- Contact Me -->
+          <div class="ui segment fadein" id="contact">
+            <div id="left">
+              <h1 class="text">Contact Me</h1>
+            </div>
+
+            <div class="ui segment">
+                      <div class="ui items" id="social">
+                          <div class="item">
+                              <a target = "_blank" href = "https://www.facebook.com/profile.php?id=100006442787166"><i class="facebook icon">&nbsp;Facebook</i></a>
+                          </div>
+                          <div class="item">
+                              <a target = "_blank" href = "https://www.linkedin.com/in/dineshpabbi10/"><i class="linkedin icon">&nbsp;Linkedin</i></a>
+                          </div>
+                          <div class="item">
+                              <a target = "_blank" href = "https://www.instagram.com/dineshpabbi10/?hl=en"><i class="instagram icon">&nbsp;Instagram</i></a>
+                          </div>
+                          <div class="item">
+                              <a target = "_blank" href = "mailto:dineshpabbi10@gmail.com?Subject=A message from portfolio"><i class="envelope icon">&nbsp;Email</i></a>
+                          </div>
+                        </div>
+                    
+              </div>
+          </div>
+<% include ./partials/footer.ejs %>
