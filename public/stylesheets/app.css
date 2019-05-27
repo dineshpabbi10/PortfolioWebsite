@@ -157,6 +157,7 @@ html {
 }
 
 .secondary.skills{
+    height:163px;
     display: flex;
     justify-content: space-around;
     align-items: center;
